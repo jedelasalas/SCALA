@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Scala Project.exe" version="4.0.0.0" publicKeyToken="ec2883f4ca7baf9e" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="PerfCenterCpl.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Scala Project" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Scala Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Scala Project.exe" size="439296">
+      <assemblyIdentity name="Scala Project" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jSd0Ek+d5MA5hz9E3vdwuQqGpt7vuBGJvafmMD7N28c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PerfCenterCpl.ico" size="116288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OpRMu5x7QGLUEG1hAbVNMmXJacarf3AHEcYMEdKsGUY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scala Project.exe.config" size="1346">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r/T7Os18jFgFfeZcm1CRePc5Z4VsSby4uYJESiVURpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ASIAPACIFIC\delasala" issuerKeyHash="b0034da3569c6793897b43b7131b2f6d9edc7189" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>IGezDVYrHDScoOQwe1OD7+BOv5o=</DigestValue></Reference></SignedInfo><SignatureValue>VIaHzmZ/FbNCzitvwtdwtWADG6Mwrgnk3hqUCCVFacUmLcueml+g0gzf9f97fMFRGjzSP69c3Qin0THvOOKBZkl8ntmZS7oeWXlqSJKtNQUMlav1fYyEO7ONUF55RM1SdrRjaJzHV2DhQvjMlmk3K+Q7pQg1WDe+XZHJ5wxdXz8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zPAwjzfDXnVHhA8pUHkk8MOfDvk299Bbm5+DODMLWpdOfYvEZI4whnMvc16dKzsiLVlE4hLUTtEQLq6YbEU4Y200e2wsl7nYRLzR9D4FccakvTKmKMex5wrG0JRwSEwEn57P9P+8Oy4F5/aGN7/l7FqvQEdOUNOHjYFUOIo+0z0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9abf4ee0ef83537b30e4a09c341c2b560db36720" Description="" Url=""><as:assemblyIdentity name="Scala Project.exe" version="4.0.0.0" publicKeyToken="ec2883f4ca7baf9e" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASIAPACIFIC\delasala</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xPukrykS3uXyNMj1ogAMk9Yoo/w=</DigestValue></Reference></SignedInfo><SignatureValue>UttbmD7CLfyAOU/wVSwDTX77kjWsmMtZcYe85dHeOaUTwMDhFJSfQ1m5td7onqxrCJqn2UdcFtXSncYIwfCBpLfLvnLYKQxT9HbJGap4f6SqSKC5RdsQkZi5NYWj0tgNyS+3BdouA/az4ksRDxj9AY/9ZUhdfDeWGvgxQuFRFZw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zPAwjzfDXnVHhA8pUHkk8MOfDvk299Bbm5+DODMLWpdOfYvEZI4whnMvc16dKzsiLVlE4hLUTtEQLq6YbEU4Y200e2wsl7nYRLzR9D4FccakvTKmKMex5wrG0JRwSEwEn57P9P+8Oy4F5/aGN7/l7FqvQEdOUNOHjYFUOIo+0z0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQaRgdNTNQj65ANfqj/4HjXTANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigAQQBTAEkAQQBQAEEAQwBJAEYASQBDAFwAZABlAGwAYQBzAGEAbABhMB4XDTEzMDQyMjExNTI0NloXDTE0MDQyMjE3NTI0NlowMzExMC8GA1UEAx4oAEEAUwBJAEEAUABBAEMASQBGAEkAQwBcAGQAZQBsAGEAcwBhAGwAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzPAwjzfDXnVHhA8pUHkk8MOfDvk299Bbm5+DODMLWpdOfYvEZI4whnMvc16dKzsiLVlE4hLUTtEQLq6YbEU4Y200e2wsl7nYRLzR9D4FccakvTKmKMex5wrG0JRwSEwEn57P9P+8Oy4F5/aGN7/l7FqvQEdOUNOHjYFUOIo+0z0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQAl0wUth/ks+04JCV+ZfCTS6jBimRUHr6MnmI1onLYTT9cEDjwaYeNFsnYI+k9bmeMOndjT7Vc75QyIltuGbevzVoafj6G5qfjPpGFPNci8uWPdeaIDyULnWsJEGxBKpd6mnQ9kCyTRkWn3dXVrtdyxdi6rlWmnJdN2LbQD7gsqZQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
